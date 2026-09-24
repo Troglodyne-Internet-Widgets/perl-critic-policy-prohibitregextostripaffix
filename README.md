@@ -60,6 +60,8 @@ does not match a newline without `/s`.  `substr` knows nothing of lines, so
 for text that can end in a newline, `chomp` it first.
 
 A modifier turned on by `use re` is not seen, only one written on the match.
+The scenarios in which you turn on global `/img` are quite rare, and you should
+simply not use this policy if your code does this.
 
 ## METHODS
 

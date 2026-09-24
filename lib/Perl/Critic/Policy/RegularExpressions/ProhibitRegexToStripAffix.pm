@@ -64,6 +64,8 @@ does not match a newline without C</s>.  C<substr> knows nothing of lines, so
 for text that can end in a newline, C<chomp> it first.
 
 A modifier turned on by C<use re> is not seen, only one written on the match.
+The scenarios in which you turn on global C</img> are quite rare, and you should
+simply not use this policy if your code does this.
 
 =cut
 
